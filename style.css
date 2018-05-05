@@ -1,0 +1,146 @@
+/*
+
+
+  ОСНОВНЫЕ ЦВЕТА
+
+    ТЁМНЫЙ #1e2224
+    Светлый #272a2d
+    Оранжевый #faa31e
+
+
+
+*/
+body{
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: #f6f6f6;
+    padding: 22px 0;
+    
+}
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container a{
+    color: black;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 63px;
+}
+.header-container a:hover{
+    background: #ffea00;
+}
+ul{
+    display: flex;
+}
+nav{
+    margin-top: 20px;
+}
+#menu-checkbox{
+    display: none;
+}
+@media screen and( max-width: 420px){
+    .header-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menuli{
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+    .main-menu a{
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor:pointer;
+        color: #000;
+    }
+    
+}
+.top-slide{
+    background: url(http://mediastar.by/wp-content/uploads/2017/02/internet-of-things-2-1078x516-2x.jpg)
+}
+.top-slide h2{
+    background: #333;
+    display: inline;
+    font-size: 70px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
